@@ -1,6 +1,7 @@
 # Install Enviroment
 ```
 cd <your folder>
+
 python -m venv venv
 
 venv\Scripts\activate.bat
@@ -15,4 +16,14 @@ code .
 ## Test mayva model 55 epoch
 ```
 python detect.py
+```
+
+## How to train
+```
+# ระวังกระทบ model ที่ train ไว้ก่อนหน้า
+
+python train.py
+
+# สามารถแก้ dataset\data.yaml
+# สามารถแก้ runs\detect\train\args.yaml 
 ```
