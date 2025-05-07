@@ -15,6 +15,8 @@ code .
 
 ## Test mayva model 55 epoch
 ```
+# เปลี่ยน image ที่ใช้ test ได้ โดย copy image ใน folder dataset\test
+
 python detect.py
 ```
 
