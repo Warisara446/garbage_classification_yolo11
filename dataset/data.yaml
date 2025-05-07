@@ -1,0 +1,13 @@
+train: C:\Uni\year 4\CSS496 Image\Project\garbage_classification_yolo11\dataset\train\images
+val: C:\Uni\year 4\CSS496 Image\Project\garbage_classification_yolo11\dataset\valid\images
+
+
+nc: 7
+names: ['electronic','paper','general', 'organic-waste', 'plastic','Lightbulb','Glass Waste']
+
+roboflow:
+  workspace: parichartsa
+  project: eletronics-wast
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/parichartsa/eletronics-wast/dataset/2
